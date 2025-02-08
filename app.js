@@ -33,6 +33,7 @@ function nuevoEnLista(id,nombre){
 function sortearAmigo(){
     if (listaNombres.length===0){
         alert('La lista esta vacia, agrega amigos primero');
+        return;
     }
 
     let indice =Math.floor(Math.random()*listaNombres.length);
